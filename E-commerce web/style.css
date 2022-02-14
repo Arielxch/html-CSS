@@ -1,7 +1,20 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.container{
+  width: 825px;
+  margin: 50px auto;
+}
+
 body {
-  border:5px solid rgb(31, 30, 30);
   font-family: sans-serif;
   line-height: 1.4
+}
+
+article{
+  border: 5px solid black;
 }
 
 #product-title{
@@ -9,16 +22,29 @@ body {
   font-size: 18px;
   text-transform: uppercase;
   background-color: rgb(231, 229, 229);
+  padding: 10px;
+}
+
+.product-picture{
+  width: 15%;
+  height: auto;
+  margin-bottom: 3px;
 }
 
 #price{
   font-size:18px;
   font-weight:bold;
+  margin-bottom: 3px;
 }
 #free-shipping{
   text-transform:uppercase;
   font-size:12px;
   color:grey;
+  margin-bottom: 15px;
+}
+
+.ready-to{
+  margin-bottom: 8px;
 }
 
 .more-info:link, .more-info:visited{
@@ -30,21 +56,35 @@ body {
 }
 
 .product-details-title{
+  margin-top: 15px;
   font-size:15px;
   text-transform: uppercase;
 }
 
 .product-details{
   list-style-type: square;
+  margin-top: 15px;
+}
+
+ul {
+  margin-top: 10px;
+}
+
+li{
+  margin-bottom: 10px;
+  margin-left:20px;
 }
 
 .the-button{
+  width: 100%;
+  padding: 10px;
   font-size: 15;
   text-transform:uppercase;
   background-color: black;
   border:none;
   color:white;
   cursor:pointer;
+  border-top: 5px solid black;
 }
 
 .the-button:hover{
