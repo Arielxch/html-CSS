@@ -22,7 +22,7 @@ article{
   font-size: 18px;
   text-transform: uppercase;
   background-color: rgb(231, 229, 229);
-  padding: 10px;
+  padding: 5px;
 }
 
 .product-picture{
@@ -45,6 +45,11 @@ article{
 
 .ready-to{
   margin-bottom: 8px;
+}
+
+.more-info{
+  display: inline-block;
+  margin-bottom: 15px;
 }
 
 .more-info:link, .more-info:visited{
@@ -91,3 +96,53 @@ li{
   background-color: white;
   color: black;
 }
+
+h1{
+  position: relative;
+}
+
+article h1::before{
+  content:"SALE";
+  color:white;
+  background-color: red;
+  font-size: 15px;
+  display: inline-block;
+  letter-spacing: 1px;
+  padding: 5px 10px;
+  position:absolute;
+  top: -15px;
+  left: -25px;
+}
+
+.box{
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+
+.box-1{
+  background-color: black;
+}
+
+.box-2{
+  background-color: blue;
+}
+
+.box-3{
+  background-color: brown;
+}
+
+.box-4{
+  background-color: green;
+}
+
+.box-5{
+  background-color: yellow;
+}
+
+.box-6{
+  background-color: red;
+}
+
