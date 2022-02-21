@@ -1,6 +1,7 @@
 *{
   margin: 0;
   padding: 0;
+  box-sizing:border-box;
 }
 
 .container{
@@ -145,4 +146,47 @@ article h1::before{
 .box-6{
   background-color: red;
 }
+
+.product-picture {
+  float: left;
+  height: 250px;
+  width: 250px;
+  margin-right: 40px;
+}
+
+.product-brief{
+  width: 222px;
+  float: left;
+  padding-top: 20px;
+}
+
+.detail-info{
+  width: 222px;
+  float:right;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.the-button{
+  clear: both;
+}
+
+
+#price{
+float: left;
+}
+
+#free-shipping{
+  float:right;
+}
+
+.ready-to{
+  clear: both;
+}
+
+.ready-to{
+  float: clear;
+}
+
+
 
