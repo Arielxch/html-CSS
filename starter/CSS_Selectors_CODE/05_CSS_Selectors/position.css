@@ -1,0 +1,35 @@
+div{
+  width: 200px;
+  height: 200px;
+  display: inline-block;
+  margin:0;
+}
+
+.firstblock{
+  background-color: rgba(123,222,125,0.5);
+}
+
+.secondblock{
+  background-color: rgba(228,222,125,0.5);
+}
+
+.thirdblock{
+  background-color: rgba(222,111,125,0.5);
+}
+
+.static .secondblock{
+  position:static;
+  top: 100px;
+}
+
+.relative .secondblock{
+  position: relative;
+  top: 100px;
+  left: 100px;
+}
+
+.relative .firstblock{
+  position: relative;
+  left: 200px;
+}
+

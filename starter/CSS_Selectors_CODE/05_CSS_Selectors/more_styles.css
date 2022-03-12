@@ -1,0 +1,124 @@
+/* * {
+This is a universal selector
+} */
+
+body{
+    background: beige;
+    margin: 0;
+}
+
+h1,h2{
+    color:darkgreen;
+    padding: 10px 15px 20px 25px;
+
+}
+
+button{
+    background-color: palegreen;
+}
+
+#signup{
+    background-color: greenyellow;
+    color:blue;
+}
+
+.tag{
+    background-color: pink;
+}
+
+input+button{
+    background-color: grey;
+}
+
+/* adjacent selector */
+h2+button{
+    background-color: purple;
+}
+
+/* direct-descendent selector */
+nav>a{
+    color: green;
+    text-decoration: none;
+}
+
+/* attribute selector */
+input[type="password"]{
+    background-color: tomato;
+    color: brown;
+}
+
+section button:hover{
+    background-color: blue;
+    color:aliceblue;
+}
+
+button:active{
+    background-color: grey;
+}
+
+h2::first-letter{
+    text-transform: lowercase;
+}
+
+p::selection{
+    background-color: red;
+}
+
+p {
+    width: 200px;
+}
+
+.first{
+    border-width: 15px;
+    border-color: greenyellow;
+    border-style: solid;
+    box-sizing: border-box;
+    border-left-color: black;
+    border-left-width: 10px;
+    margin-left: 50px;
+    margin-bottom: 50px;
+}
+
+.second{
+    border-width: 5px;
+    border-color: grey;
+    border-style: solid dashed double none;
+    border: 10px solid blue;
+}
+
+.third{
+    border: 10px solid blue;
+    border-left-style: dotted;
+    border-radius: 30px;
+}
+
+section{
+    font-size: 15px;
+}
+
+button{
+    font-size: 1em;
+    padding: 1em;
+    border-radius: 1em;
+    border:0;
+}
+
+.newsection{
+    width: 500px;
+    height: 500px;
+    background-color: magenta;
+}
+
+.rgba{
+    width: 50%;
+    height: 50%;
+    background-color: rgba(255,255,100,0.5);
+}
+
+.opacity{
+    width: 50%;
+    height: 50%;
+    background-color: yellow;
+    opacity: 0.5
+}
+
