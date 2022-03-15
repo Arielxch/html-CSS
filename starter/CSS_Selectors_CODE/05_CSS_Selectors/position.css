@@ -6,15 +6,15 @@ div{
 }
 
 .firstblock{
-  background-color: rgba(123,222,125,0.5);
+  background-color: #ff1122;
 }
 
 .secondblock{
-  background-color: rgba(228,222,125,0.5);
+  background-color: green;
 }
 
 .thirdblock{
-  background-color: rgba(222,111,125,0.5);
+  background-color: black;
 }
 
 .static .secondblock{
@@ -28,8 +28,25 @@ div{
   left: 100px;
 }
 
-.relative .firstblock{
-  position: relative;
-  left: 200px;
+.absolute .secondblock{
+  position: absolute;
 }
 
+.fixed .secondblock{
+  position: fixed;
+  top: 50px;
+  left: 50px;
+}
+
+.circle{
+  width: 100px;
+  height: 100px;
+  background-color: aqua;
+  transition: background-color 1s 1s;
+}
+
+.circle:hover{
+  border-radius: 50%;
+  background-color: #ff1122;
+  
+}
